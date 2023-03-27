@@ -4,7 +4,7 @@ module.exports = {
     version: '0.8.9',
     networks: {
       hardhat: {},
-      localganache: {
+      sepolia: {
         url: process.env.PROVIDER_URL,
         accounts: [`0x${process.env.PRIVATE_KEY}`]
       }
